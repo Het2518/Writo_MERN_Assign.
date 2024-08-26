@@ -24,5 +24,5 @@ This project is a full-stack application designed to handle user signup, login, 
 
 ### Clone the Repository
 ```bash
-git clone <your-github-repo-url>
-cd <repository-name>
+git clone https://github.com/Het2518/Writo_MERN_Assign..git
+cd Writo_MERN_Assign
