@@ -11,16 +11,16 @@ This project is a full-stack application designed to handle user signup, login, 
 - **Responsive Design:** The UI is mobile-friendly, even though a mobile-specific design was not provided.
 
 ## Technology Stack
-- **Frontend:** ReactJS (TypeScript)
-- **Backend:** Node.js (Express, TypeScript)
-- **Database:** MongoDB (or MySQL if used)
+- **Frontend:** ReactJS (JavaScript)
+- **Backend:** Node.js (Express, JavaScript)
+- **Database:** MongoDB 
 - **Authentication:** Password hashing and JWT for secure authentication.
 
 ## Setup Instructions
 
 ### Prerequisites
 - Node.js and npm installed on your system
-- MongoDB/MySQL installed and running
+- MongoDB installed and running
 
 ### Clone the Repository
 ```bash
