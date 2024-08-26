@@ -17,7 +17,7 @@ const Welcome = () => {
             }
 
             try {
-                const response = await axios.get('http://localhost:5000/api/auth/user', {
+                const response = await axios.get('https://writo-mern-assign.onrender.com/api/auth/user', {
                     headers: { Authorization: `Bearer ${token}` }
                 });
                 setUserData(response.data);

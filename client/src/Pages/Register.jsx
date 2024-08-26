@@ -46,13 +46,14 @@ const Register = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/register', {
+            const response = await axios.post('https://writo-mern-assign.onrender.com/api/auth/register', {
                 firstName,
                 lastName,
                 email,
                 password,
                 contactMode
             });
+
             toast.success(response.data.message);
             navigate('/verify-otp', { state: { email } });
         } catch (error) {

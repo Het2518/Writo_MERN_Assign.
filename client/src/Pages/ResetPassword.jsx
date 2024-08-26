@@ -20,7 +20,7 @@ const PasswordReset = () => {
         try {
             const token = localStorage.getItem('token');
             const response = await axios.post(
-                'http://localhost:5000/api/auth/reset-password',
+                'https://writo-mern-assign.onrender.com/api/auth/reset-password',
                 { currentPassword, newPassword },
                 { headers: { Authorization: `Bearer ${token}` } }
             );

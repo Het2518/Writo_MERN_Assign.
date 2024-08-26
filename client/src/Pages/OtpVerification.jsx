@@ -13,7 +13,7 @@ const OtpVerification = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/verify-otp', { email, otp });
+            const response = await axios.post('https://writo-mern-assign.onrender.com/api/auth/verify-otp', { email, otp });
             localStorage.setItem('token', response.data.token);
             toast.success('Email verified successfully');
             navigate('/welcome');
